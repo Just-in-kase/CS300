@@ -1,5 +1,0 @@
-﻿  LinkedList.cpp
-C:\Users\jayvi\source\repos\LinkedList\LinkedList\LinkedList.cpp(290,27): warning C4018: '<': signed/unsigned mismatch
-  LinkedList.vcxproj -> C:\Users\jayvi\source\repos\LinkedList\x64\Debug\LinkedList.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
