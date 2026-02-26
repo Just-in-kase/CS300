@@ -1,2 +1,17 @@
-# CS300
-## CS300 Reflection
+# CS300 Reflection
+## Overview of Repository
+This repository contains selected work from my CS300 course and highlights two major pieces of the term. From Project One, I’ve included my analysis of run-time and memory usage for different data structures. From Project Two, I’ve included the working C++ program that loads course data, stores it in a Binary Search Tree, and prints the respective courses in alphanumeric order.
+## Problem Statement
+The main problem I was solving in this course was how to store, organize, and retrieve academic course data in a way that is efficient and scalable. The advising department at ABCU needed a system that could print a full list of courses in order and display a single course with its prerequisites. The challenge was not just making the program work, but choosing the right structure and understanding the tradeoffs behind that choice.
+## Approach and Design
+I approached the problem in two stages: First, I focused on analysis where I compared vectors, hash tables, and binary search trees. I evaluated their Big-O run-time for insertion, search, and traversal. I also considered memory usage and how each structure scales as the dataset grows. That analysis shaped my design decisions for Project Two. I implemented a Binary Search Tree because it naturally supports in-order traversal, which prints data in sorted alphanumeric order without requiring a separate sorting step. I built the program in C++ using clear function boundaries, helper utilities, and defensive input handling. From there, I tested each feature incrementally, starting with loading data, then searching for a single course, and finally printing the full course list.
+## Data Structures
+Understanding data structures is critical for any software developer as a program can appear correct but fail under larger workloads if the underlying structure is inefficient. In this course, I moved beyond simply writing code that compiles. I learned to think about algorithmic efficiency, recursion depth, tree balance, and the cost of operations over time. That shift in mindset is important and it has changed how I evaluate solutions before I write them.
+## Overcoming Challenges
+I did run into roadblocks. Debugging file input and validating prerequisite data required careful testing. I also had to slow down and think through tree insertion logic to ensure nodes were placed correctly. Breaking the program into small, testable pieces made troubleshooting manageable.
+## Growth in Software Design
+This project expanded my approach to software design and I now start by analyzing constraints and performance expectations before selecting a data structure. I think about how the data will be accessed, how often it will change, and what operations matter most. That perspective applies directly to larger systems, whether in full stack web development or systems programming. 
+## Maintainable and Adaptable Code
+My coding style also evolved during this course and I now place more emphasis on readability, consistent naming, and clear function separation. I also added developer comments that explain why a decision was made, not just what the code does and avoided unnecessary complexity and kept logic straightforward. If I revisit this repository months from now, I will understand the design decisions quickly because they are documented and structured with intent.
+## Final Reflection
+This repository reflects more than a working program: It reflects a shift in how I think about efficiency, structure, and long-term design. The combination of algorithm analysis and practical implementation has helped me in building a better foundation in data structures. It also reinforced a habit I will carry forward: choose the right structure first, then build the solution around it.
